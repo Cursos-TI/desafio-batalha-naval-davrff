@@ -10,5 +10,18 @@
 int main() {
 
 
+    // preparando o tabuleiro
+
+    int tabuleiro[TAM_TABULEIRO][TAM_TABULEIRO];
+
+    for(int linha = 0; linha < TAM_TABULEIRO; linha++) {
+        for(int coluna = 0; coluna < TAM_TABULEIRO; coluna++) {
+            tabuleiro[linha][coluna] = AGUA;
+        }
+    }
+
+    
+
+
     return 0;
 }
