@@ -20,6 +20,17 @@ int main() {
         }
     }
 
+
+    // escolhendo a posicao de cada navio
+
+    // navio1 estara na horinzontal
+    int linha_navio1 = 2;
+    int coluna_navio1 = 3;
+
+    // navio2 estara na vertical
+    int linha_navio2 = 5;
+    int coluna_navio2 = 6;
+
     
 
 
