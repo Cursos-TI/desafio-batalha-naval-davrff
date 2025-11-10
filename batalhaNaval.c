@@ -63,6 +63,18 @@ int main() {
         }
     }
 
+    // POSICIONANDO OS NAVIOS NO TABULEIRO
+
+    // coluna o navio horizontal
+    for (int i = 0; i < TAM_NAVIO; i++) {
+        tabuleiro[linha_navio1][coluna_navio1 + i] = NAVIO;
+    }
+
+    // coluna o navio vertical
+    for (int i = 0; i < TAM_NAVIO; i++) {
+        tabuleiro[linha_navio2 + i][coluna_navio2] = NAVIO;
+    }
+
     
 
 
