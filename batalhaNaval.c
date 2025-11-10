@@ -43,6 +43,8 @@ int main() {
         return 1;
     }
 
+    // VERIFICANDO SE EXISTE SOBREPOSIÇÃO ENTRE OS NAVIOS
+
     // para o navio horizontal
     for (int i = 0; i < TAM_NAVIO; i++) {
         if (tabuleiro[linha_navio1][coluna_navio1 + i] != AGUA) {
