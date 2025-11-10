@@ -75,6 +75,24 @@ int main() {
         tabuleiro[linha_navio2 + i][coluna_navio2] = NAVIO;
     }
 
+    // MOSTRANDO O TABULEIRO FINAL
+
+    printf("\n🌊 TABULEIRO DA BATALHA NAVAL 🌊\n");
+    printf("-----------------------------------------\n");
+
+    for (int linha = 0; linha < TAM_TABULEIRO; linha++) {
+        for (int coluna = 0; coluna < TAM_TABULEIRO; coluna++) {
+            if (tabuleiro[linha][coluna] == AGUA)
+            printf("~ ");
+        else
+        printf("🚢 ");
+        }
+        printf("\n");
+    }
+
+    printf("-----------------------------------------\n");
+    printf("✅ Navios posicionados com sucesso!\n\n");
+
     
 
 
