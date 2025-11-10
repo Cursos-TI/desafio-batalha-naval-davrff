@@ -43,6 +43,24 @@ int main() {
         return 1;
     }
 
+    // para o navio horizontal
+    for (int i = 0; i < TAM_NAVIO; i++) {
+        if (tabuleiro[linha_navio1][coluna_navio1 + i] != AGUA) {
+            printf("❌ Sobreposicão detectada para o navio horizontal na posição [%d][%d].\n",
+            linha_navio1, coluna_navio1 + i);
+            return 1;
+        }
+    }
+
+    // para o navio vertical
+    for (int i = 0; i < TAM_NAVIO; i++) {
+        if (tabuleiro[linha_navio2 + i][coluna_navio2] != AGUA) {
+            printf("❌ Sobreposicão detectada para o navio vertical na posição [%d][%d].\n",
+            linha_navio2 + i, coluna_navio2;
+            return 1;
+        }
+    }
+
     
 
 
